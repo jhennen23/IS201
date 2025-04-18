@@ -4,17 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice Cream Rankings</title>
-    <link rel="stylesheet" href="/IceCreamProject/styles.css">
-    <link rel="stylesheet" href="/IceCreamProject/divstyles.css">
+    <link rel="stylesheet" href="../IceCreamProject/styles.css">
+    <link rel="stylesheet" href="../IceCreamProject/divstyles.css">
  </head>
  <body>
-
+<style>
+  .common{
+    /* border: 2px solid white; */
+    position: absolute;
+}
+.nav{
+    position: relative;
+    float: right;
+    font-size: 75%;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50%;
+    font-style: italic;
+    text-align: center;
+    background-color: hsla(0, 0%, 66%, 0.9);
+    color: rgb(16, 16, 16);
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: -1;
+}
+.content{
+    left: 10%;
+    right: 10%;
+    background-color: hsla(167, 61%, 87%, 0.9);
+}
+body{
+    font-family: Papyrus, Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgba(0, 195, 255, 0.362);
+    color: rgba(0, 0, 0, 0.875);
+    a{
+        color:rgb(94, 134, 134)
+        background-color: black;
+    }
+    background-image: url(https://cdn11.bigcommerce.com/s-4d4xixz/images/stencil/1280x1280/products/21582/26014/NC_035updated__21953.1692202884.jpg?c=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,h2{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+img{
+    border: 5px solid black;
+    padding: 5px;
+    height: 250px;
+    /* margin: auto;
+    display: block; */
+}
+.rizz{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lime;
+    border: 5px dashed yellow;
+    font-size: 400%;
+    font-weight: bolder;
+    background-color: bisque;
+}
+.rizz:hover{
+    font-size: 450%;
+    color:brown;
+    border:5px solid salmon;
+}
+Li{
+    width: fit-content;
+}
+li:hover{
+    text-decoration: underline;
+    background-color: darkslategrey;
+}
+/* Style the back-to-top link */
+#back-to-top-link {
+    position: fixed; /* Keep it fixed relative to the viewport */
+    bottom: 20px;    /* Distance from the bottom */
+    left: 20px;      /* Distance from the left */
+    background-color: #007bff; /* Example background color (change as needed) */
+    color: white;           /* Example text color */
+    padding: 10px 15px;     /* Add some padding */
+    border-radius: 5px;     /* Rounded corners */
+    text-decoration: none;  /* Remove underline */
+    z-index: 1000;          /* Ensure it stays on top of other content */
+    display: inline-block;  /* Ensure padding applies correctly */
+  }
+  
+  /* Optional: Add hover effect */
+  #back-to-top-link:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+  
+  /* Optional: Add smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
     <div class="common nav">
        
         <a href="game.html" target="_blank">Game</a> &nbsp; | &nbsp;
         <a href="mainpage.html">Blog</a> &nbsp; | &nbsp;
         <a href="#bottom">Bottom</a>
-        
+      
 
     </div>
        <br>
